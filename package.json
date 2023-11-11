@@ -1,0 +1,40 @@
+{
+  "name": "votingdappui",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.0.18",
+    "@rainbow-me/rainbowkit": "^1.1.3",
+    "@web3auth/modal": "^7.0.5",
+    "date-fns": "^2.30.0",
+    "ethereumjs-util": "^7.1.5",
+    "ethers": "^6.8.0",
+    "ethers-utils": "^2.1.11",
+    "framer-motion": "^10.16.4",
+    "js-cookie": "^3.0.5",
+    "localforage": "^1.10.0",
+    "next": "13.5.6",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-modal": "^3.16.1",
+    "react-simple-timestamp-to-date": "^1.0.3",
+    "react-toastify": "^9.1.3",
+    "react-type-animation": "^3.2.0",
+    "viem": "^1.16.6",
+    "wagmi": "^1.4.5",
+    "web3": "^4.2.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10",
+    "eslint": "^8",
+    "eslint-config-next": "13.5.6",
+    "postcss": "^8",
+    "tailwindcss": "^3"
+  }
+}
